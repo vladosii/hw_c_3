@@ -1,0 +1,15 @@
+C:\gb_lection\hw_c_2\hw_c_3\hw_c_3_2\bin\Debug\net6.0\hw_c_3_2.exe
+C:\gb_lection\hw_c_2\hw_c_3\hw_c_3_2\bin\Debug\net6.0\hw_c_3_2.deps.json
+C:\gb_lection\hw_c_2\hw_c_3\hw_c_3_2\bin\Debug\net6.0\hw_c_3_2.runtimeconfig.json
+C:\gb_lection\hw_c_2\hw_c_3\hw_c_3_2\bin\Debug\net6.0\hw_c_3_2.dll
+C:\gb_lection\hw_c_2\hw_c_3\hw_c_3_2\bin\Debug\net6.0\hw_c_3_2.pdb
+C:\gb_lection\hw_c_2\hw_c_3\hw_c_3_2\obj\Debug\net6.0\hw_c_3_2.csproj.AssemblyReference.cache
+C:\gb_lection\hw_c_2\hw_c_3\hw_c_3_2\obj\Debug\net6.0\hw_c_3_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\gb_lection\hw_c_2\hw_c_3\hw_c_3_2\obj\Debug\net6.0\hw_c_3_2.AssemblyInfoInputs.cache
+C:\gb_lection\hw_c_2\hw_c_3\hw_c_3_2\obj\Debug\net6.0\hw_c_3_2.AssemblyInfo.cs
+C:\gb_lection\hw_c_2\hw_c_3\hw_c_3_2\obj\Debug\net6.0\hw_c_3_2.csproj.CoreCompileInputs.cache
+C:\gb_lection\hw_c_2\hw_c_3\hw_c_3_2\obj\Debug\net6.0\hw_c_3_2.dll
+C:\gb_lection\hw_c_2\hw_c_3\hw_c_3_2\obj\Debug\net6.0\refint\hw_c_3_2.dll
+C:\gb_lection\hw_c_2\hw_c_3\hw_c_3_2\obj\Debug\net6.0\hw_c_3_2.pdb
+C:\gb_lection\hw_c_2\hw_c_3\hw_c_3_2\obj\Debug\net6.0\hw_c_3_2.genruntimeconfig.cache
+C:\gb_lection\hw_c_2\hw_c_3\hw_c_3_2\obj\Debug\net6.0\ref\hw_c_3_2.dll
