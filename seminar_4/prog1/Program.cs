@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int funs(int num){
+    int sum = 0;
+    for (int i = 1; i <= num; i++)
+    {
+        sum = sum+i;
+    }
+    Console.WriteLine(sum);
+}
+
+funs(5);
