@@ -1,0 +1,6 @@
+﻿
+
+void massive(int[,] mass){
+
+}
+
