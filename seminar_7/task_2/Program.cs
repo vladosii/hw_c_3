@@ -2,18 +2,33 @@
 // элемент в массиве находится по формуле: Aₙₙ = m+n.
 // Выведите полученный массив на экран.
 
-void mas(int n, int m)
+void Print(int[,] arr)
 {
-    int[,] massiv = new int[n, m];
-    for (int i = 0; i < n; i++)
+    int row = arr.GetLength(0);
+    int column = arr.GetLength(1);
+
+    for (int i = 0; i < row; i++)
     {
-        for (int j = 0; j < m; j++)
-        {
-            int massiv = new Random().Next(1, 100);
-            mas[i,j] = num;
-            Console.WriteLine($"mas[i,j]");
-        }
+        for (int j = 0; j < column; j++)
+            Console.Write($" {arr[i, j]} ");
+        Console.WriteLine();
     }
 }
 
-mas(3,3);
+int[,] MassNums(int row, int column, int from, int to)
+{
+    int[,] arr = new int[row, column];
+
+    for (int i = 0; i < row; i++)
+        for (int j = 0; j < column; j++)
+            arr[i, j] = i+j;
+    return arr;
+}
+
+int row_num = int.Parse(Console.ReadLine()!);
+int column_num = int.Parse(Console.ReadLine()!);
+int start = int.Parse(Console.ReadLine()!);
+int stop = int.Parse(Console.ReadLine()!);
+
+int[,] mass = MassNums(row_num, column_num, start, stop);
+Print(mass);

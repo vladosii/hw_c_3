@@ -1,0 +1,15 @@
+C:\gb_lection\seminar_7\task_2\obj\Debug\net6.0\task_2.csproj.AssemblyReference.cache
+C:\gb_lection\seminar_7\task_2\obj\Debug\net6.0\task_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\gb_lection\seminar_7\task_2\obj\Debug\net6.0\task_2.AssemblyInfoInputs.cache
+C:\gb_lection\seminar_7\task_2\obj\Debug\net6.0\task_2.AssemblyInfo.cs
+C:\gb_lection\seminar_7\task_2\obj\Debug\net6.0\task_2.csproj.CoreCompileInputs.cache
+C:\gb_lection\seminar_7\task_2\bin\Debug\net6.0\task_2.exe
+C:\gb_lection\seminar_7\task_2\bin\Debug\net6.0\task_2.deps.json
+C:\gb_lection\seminar_7\task_2\bin\Debug\net6.0\task_2.runtimeconfig.json
+C:\gb_lection\seminar_7\task_2\bin\Debug\net6.0\task_2.dll
+C:\gb_lection\seminar_7\task_2\bin\Debug\net6.0\task_2.pdb
+C:\gb_lection\seminar_7\task_2\obj\Debug\net6.0\task_2.dll
+C:\gb_lection\seminar_7\task_2\obj\Debug\net6.0\refint\task_2.dll
+C:\gb_lection\seminar_7\task_2\obj\Debug\net6.0\task_2.pdb
+C:\gb_lection\seminar_7\task_2\obj\Debug\net6.0\task_2.genruntimeconfig.cache
+C:\gb_lection\seminar_7\task_2\obj\Debug\net6.0\ref\task_2.dll
