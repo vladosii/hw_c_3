@@ -44,9 +44,11 @@ void SumMassInterval(int[] arr){
     }
     Console.WriteLine($"Count: {count}");
 }
-
+Console.WriteLine("Введите размер массива");
 int num = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Диапазон от");
 int start = int.Parse(Console.ReadLine()!);
+Console.WriteLine("Диапазон до");
 int stop = int.Parse(Console.ReadLine()!);
 
 int[] mass = MassNums(num, start, stop);

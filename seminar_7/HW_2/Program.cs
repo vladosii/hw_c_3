@@ -27,16 +27,17 @@ int[,] MassNums(int row, int column, int from, int to)
     return arr;
 }
 
-void PrintElements(int[,] arr, int posN, int posM)
+string PrintElements(int[,] arr, int posN, int posM)
 {
     int row = arr.GetLength(0);
     int column = arr.GetLength(1);
-
+    string res = '';
     if (posN > row || posM > column){
-        Console.WriteLine("Err: EOF");
+        res += ("Err: EOF");
     }else{
-        Console.WriteLine($"Elements: {arr[posN-1, posM-1]}");
+        res += ($"Elements: {arr[posN-1, posM-1]}");
     }
+    return res;
 }
 
 int row_num = int.Parse(Console.ReadLine()!);

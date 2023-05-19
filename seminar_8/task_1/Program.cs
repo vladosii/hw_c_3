@@ -1,17 +1,48 @@
-﻿// double[,] fillMass(int n, int m){
-//     double[,] arr = new double[n, m];
+﻿// Задайте двумерный массив. Напишите программу,
+// которая поменяет местами первую и последнюю строку
+// массива.
 
-//     for (int i = 0; i < n; i++)
-//     {
-//         for (int j = 0; j < m; j++)
-//         {
-//             arr[i,j] = new Random().Next(1, 100)/10.0;
-//             System.Console.Write($" {arr[i, j]} ");
-//         }
-//         System.Console.WriteLine(" ");
-//     }
+void Print(double[,] arr)
+{
+    int row = arr.GetLength(0);
+    int column = arr.GetLength(1);
 
-//     return arr;
-// }
+    for (int i = 0; i < row; i++)
+    {
+        for (int j = 0; j < column; j++)
+            Console.Write($" {arr[i, j]} ");
+        Console.WriteLine();
+    }
+}
 
-// fillMass(3, 3);
+double[,] MassNums(int row, int column, int from, int to)
+{
+    double[,] arr = new double[row, column];
+
+    for (int i = 0; i < row; i++)
+        for (int j = 0; j < column; j++)
+            arr[i, j] = new Random().Next(from, to);
+    return arr;
+}
+
+void ArrSwitch(double[,] array)
+{
+    int row = array.GetLength(0);
+    int column = array.GetLength(1);
+
+    for (int j = 0; j < column; j++)
+    {
+        (array[0, j], array[row-1, j]) = (array[row-1, j], array[0, j]);
+    }
+    System.Console.WriteLine("");
+}
+
+int row_num = int.Parse(Console.ReadLine()!);
+int column_num = int.Parse(Console.ReadLine()!);
+int start = int.Parse(Console.ReadLine()!);
+int stop = int.Parse(Console.ReadLine()!);
+
+double[,] mass = MassNums(row_num, column_num, start, stop);
+Print(mass);
+ArrSwitch(mass);
+Print(mass);

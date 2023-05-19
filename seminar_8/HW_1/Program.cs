@@ -36,7 +36,7 @@ void ArrSort(double[,] array)
             for (int k = 0; k < column; k++)
             {
                 if (array[i, j] <= array[i, k]) continue;
-                var temp = array[i, j];
+                double temp = array[i, j];
                 array[i, j] = array[i, k];
                 array[i, k] = temp;
             }

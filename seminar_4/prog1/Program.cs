@@ -1,6 +1,6 @@
-﻿int funs(int num){
+﻿void funs(int nums){
     int sum = 0;
-    for (int i = 1; i <= num; i++)
+    for (int i = 1; i <= nums; i++)
     {
         sum = sum+i;
     }
