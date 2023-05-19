@@ -14,4 +14,4 @@ def summary(data):
     sum = num+num1+num2
     print('Сумма чисел: '+str(num)+'+'+str(num2)+'+'+str(num1)+'='+str(sum))
 
-# summary(data)
+summary(data)
